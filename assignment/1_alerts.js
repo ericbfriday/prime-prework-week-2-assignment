@@ -50,6 +50,7 @@ animalName = prompt("Of what animal am I thinking?");
 }
 
 animalGuess(animal);
+
 // 4. Answer the question: What will "console.log(animalName)" log outside the
 // "animalGuess" function?
 
