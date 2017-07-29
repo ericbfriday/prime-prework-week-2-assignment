@@ -38,7 +38,7 @@ else {
 // Call the function by passing the animal variable into it
 
 function animalGuess(animalName) {
-animalName = prompt("Of what animal am I thinking?");
+  // EF Note - removing animalName = prompt("Of what animal am I thinking?");
   // conditional statement goes in here
   if (animalName === "turtle") {
     alert('How did you know?!');
