@@ -2,7 +2,6 @@
 // right clicking and selecting 'Inspect'. If the script is properly
 // sourced you will see the log message: 'Script sourced!'.
 
-// EF note - The script does source successfully! Yay!
 console.log('Script sourced!');
 
 /**
@@ -25,11 +24,11 @@ var animal = prompt("Of what animal am I thinking?");
 // IMPORTANT: Use these exact strings: 'Try again.' and 'How did you know?!'.
 
 if (animal === "turtle") {
-  alert("How did you know?!");
+  alert('How did you know?!');
 }
 
 else {
-  alert("Try again.");
+  alert('Try again.');
 }
 
 // 3. Refactor your code above into the "animalGuess" function below.
@@ -40,15 +39,14 @@ else {
 // Call the function by passing the animal variable into it
 
 function animalGuess(animalName) {
-animalName = prompt("Of what animal am I thinking?");
+animalName = animal;
   // conditional statement goes in here
-
   if (animalName === "turtle") {
-    alert("How did you know?!");
+    alert('How did you know?!');
   }
 
   else {
-    alert("Try again.");
+    alert('Try again.');
   }
 }
 
