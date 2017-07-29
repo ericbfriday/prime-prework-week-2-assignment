@@ -12,7 +12,6 @@ console.log('Script sourced!');
  * - that they should try again.
  */
 
-
 // 1. Create a variable that takes in user input via the prompt function
 // that asks "Of what animal am I thinking?".
 
@@ -28,7 +27,7 @@ if (animal === "turtle") {
 }
 
 else {
-  alert('Try again.');
+  alert('try again.');
 }
 
 // 3. Refactor your code above into the "animalGuess" function below.
@@ -39,14 +38,14 @@ else {
 // Call the function by passing the animal variable into it
 
 function animalGuess(animalName) {
-animalName = animal;
+animalName = prompt("Of what animal am I thinking?");
   // conditional statement goes in here
   if (animalName === "turtle") {
     alert('How did you know?!');
   }
 
   else {
-    alert('Try again.');
+    alert('try again.');
   }
 }
 
