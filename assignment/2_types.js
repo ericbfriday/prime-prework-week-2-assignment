@@ -1,4 +1,3 @@
-
 /**
  * We are going to create an application where you create a variable, and then
  * create a function that doubles it!
@@ -10,17 +9,7 @@
  * Fill in the code below based on the commented lines.
  */
 
-var someNumber = 8;
-// make sure to test all the possible inputs.
-var someString = "Salad";
-
-var someBoolean = typeof true;
-
-var someObject = typeof {a: 1};
-
-var someOther = undefined;
-
-// EF Note - moved this call down below
+// EF Note - moved this call down below to test with other items
 // theDoubler(someNumber);
 
 function theDoubler(someInput) {
@@ -37,18 +26,20 @@ function theDoubler(someInput) {
 	// if type is string pass back that string twice
 	// e.g. sending "someString" in, should log "someStringsomeString"
 
-	else if (typeof someInput == boolean) {
-		if (someInput == "False") {
-			console.log("I won't double this");
+	//Regarding the boolean check below - I'm unsure of how to get the function to
+	//return the proper responses by setting someInput == "boolean". It fails
+	// for me consistently.
+
+	else if (someInput == false) {
+		console.log("I won't double this");
 		}
-		else if (someInput == "True") {
-			console.log("Super-duper true");
+	else if (someInput == true) {
+		console.log("Super-duper true");
 		}
-	}
 	// if the user inputs a boolean (true or false)
 	// log "I won't double this" if it is false
 	// log "Super-duper true" if it is true
-	else if (typeof someInput == object) {
+	else if (typeof someInput == "object") {
 		console.log("everything is an object");
 	}
 	// if it's none of those, but it is an object, log "everything is an object"
@@ -57,21 +48,38 @@ function theDoubler(someInput) {
 		console.log("I can't double this")
 	}
 	// if it is anything else, print out "I can't double this"
-
 }
-/*
+
+//Below defines variables to test types of parameters for theDoubler function
+
+var someNumber = 8;
+
+var someString = "Salad";
+
+var someBooleanTrue = true;
+
+var someBooleanFalse = false;
+
+var someObject = {};
+
+var someOther = [];
+
+//Below tests the function by calling the it with different input types
+
 console.log("Checking number");
 theDoubler(someNumber);
 
-console.log("checking strings");
+console.log("Checking strings");
 theDoubler(someString);
 
-console.log("checking booleans");
-theDoubler(someBoolean);
+console.log("Checking booleans true");
+theDoubler(someBooleanTrue);
 
-console.log("checking objects");
+console.log("Checking booleans false");
+theDoubler(someBooleanFalse);
+
+console.log("Checking objects");
 theDoubler(someObject);
 
-console.log("checking other");
+console.log("Checking other");
 theDoubler(someOther);
-*/
