@@ -60,9 +60,9 @@ var someBooleanTrue = true;
 
 var someBooleanFalse = false;
 
-var someObject = {};
+var someObject = ["array", "object"];
 
-var someOther = [];
+// var someOther = undefined; <-- This is unnecessary. Commenting out.
 
 //Below tests the function by calling the it with different input types
 
@@ -82,4 +82,4 @@ console.log("Checking objects");
 theDoubler(someObject);
 
 console.log("Checking other");
-theDoubler(someOther);
+theDoubler(undefined);
