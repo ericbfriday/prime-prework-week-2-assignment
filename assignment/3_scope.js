@@ -52,4 +52,4 @@
     var resultTwo = 8; // replace undefined with the result
     // 12 - 4 = 8
 
-    //Michelangelo returns 2. Donatello returns 12. leonardo returns 5. raphael returns 4.
+    //michelangelo returns 2. donatello returns 12. leonardo returns 5. raphael returns 4.

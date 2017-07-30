@@ -39,6 +39,7 @@ function theDoubler(someInput) {
 	// if the user inputs a boolean (true or false)
 	// log "I won't double this" if it is false
 	// log "Super-duper true" if it is true
+
 	else if (typeof someInput == "object") {
 		console.log("everything is an object");
 	}
@@ -50,17 +51,20 @@ function theDoubler(someInput) {
 	// if it is anything else, print out "I can't double this"
 }
 
+/**
+
 //Below defines variables to test types of parameters for theDoubler function
+//using variables found in the 2_typtes.tests.js file.
 
 var someNumber = 8;
 
-var someString = "Salad";
+var someString = "Hey";
 
 var someBooleanTrue = true;
 
-var someBooleanFalse = false;
+var someObject = {};
 
-var someObject = ["array", "object"];
+var someBooleanFalse = false;
 
 // var someOther = undefined; <-- This is unnecessary. Commenting out.
 
@@ -75,11 +79,13 @@ theDoubler(someString);
 console.log("Checking booleans true");
 theDoubler(someBooleanTrue);
 
-console.log("Checking booleans false");
-theDoubler(someBooleanFalse);
-
 console.log("Checking objects");
 theDoubler(someObject);
 
 console.log("Checking other");
 theDoubler(undefined);
+
+console.log("Checking booleans false");
+theDoubler(someBooleanFalse);
+
+*/

@@ -56,3 +56,12 @@ animalGuess(animal);
 //to be local to animalGuess. If it were defined outside of the function, then
 //it could be defined 'globally', and it could be called by the console.log()
 //command.
+
+/** testing the code below. This is going to be commented out in the final code.
+
+console.log("Testing 'panda'. Expect else conditions to return from function. Should show 'Try Again.'")
+animalGuess('panda');
+
+console.log("Testing 'turtle'. Expect if conditions to return from function. Should show 'How did you know?!'")
+animalGuess('turtle');
+*/
