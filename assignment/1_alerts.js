@@ -23,11 +23,10 @@ var animal = prompt("Of what animal am I thinking?");
 // IMPORTANT: Use these exact strings: 'Try again.' and 'How did you know?!'.
 
 if (animal === "turtle") {
-  console.log("How did you know?!");
+  alert("How did you know?!");
 }
-
 else {
-  console.log('Try again.');
+  alert("Try again.");
 }
 
 // 3. Refactor your code above into the "animalGuess" function below.
@@ -38,14 +37,12 @@ else {
 // Call the function by passing the animal variable into it
 
 function animalGuess(animalName) {
-  // EF Note - removing animalName = prompt("Of what animal am I thinking?");
   // conditional statement goes in here
-  if (animalName === "turtle") {
-    console.log('How did you know?!');
+  if (animalName === "turtle"){
+    alert('How did you know?!');
   }
-
   else {
-    console.log('Try again.');
+    alert('Try again.');
   }
 }
 

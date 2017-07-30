@@ -43,11 +43,13 @@
     michelangelo(theNumber) + leonardo(theNumber);
     // ^ Before running the script, what number would you expect the line above to evaluate to?
     var resultOne = 7; // replace undefined with the result
-// EF first guess 4. Wrong.
+    // 5 + 2 = 7
 
     theNumber = theNumber * 2;
 
     donatello(theNumber, 2) - (raphael(3, 2, theNumber));
     // ^ Before running the script, what number would you expect the line above to evaluate to?
     var resultTwo = 8; // replace undefined with the result
-//EF first guess -3. Wrong.
+    // 12 - 4 = 8
+
+    //Michelangelo returns 2. Donatello returns 12. leonardo returns 5. raphael returns 4.
