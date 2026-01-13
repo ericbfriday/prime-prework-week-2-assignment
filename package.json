@@ -19,13 +19,13 @@
   "homepage": "https://github.com/PrimeAcademy/prework-week-2#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "karma": "^1.3.0",
+    "karma": "^6.3.16",
     "karma-chai": "^0.1.0",
     "karma-junit-reporter": "^1.2.0",
-    "karma-mocha": "^1.3.0",
+    "karma-mocha": "^2.0.1",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-sinon": "^1.0.5",
-    "mocha": "^3.2.0",
+    "mocha": "^11.7.1",
     "sinon": "^1.17.6"
   }
 }
